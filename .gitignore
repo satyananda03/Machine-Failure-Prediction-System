@@ -1,0 +1,16 @@
+.idea/
+.vscode/
+*.swp
+*~
+venv/
+env/
+.venv/
+.env
+*.ini
+*.cfg
+__pycache__/
+*.pyc
+*.pyo
+*.$py.class
+echo "app/firebase_credentials.json" >> .gitignore
+"app/firebase_credentials.json" 
