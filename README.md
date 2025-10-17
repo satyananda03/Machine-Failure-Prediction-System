@@ -13,18 +13,7 @@ Predict machine failure based on machine process parameters
 
 ## Features 
 - Predict machine failure based on process parameter - Air temperature (K), Process temperature (K), Rotational speed (rpm), Torque (Nm) : Torsi mesin, Tool wear (min)
-- Classify failure type into : 
-
-- TWF :	Tool ware failure
-
-- HDF : Heat dissipation failure
-
-- PWF : Power failure
-
-- OSF : Overstrain failure
-
-- RNF : Random failure
-
+- Classify failure type into : TWF (Tool ware failure), HDF (Heat dissipation failure), PWF (Power failure), OSF (Overstrain failure), RNF(Random failure)
 - Realtime dahsboard to analyze data & prediction history
 
 ## Dataset
@@ -35,6 +24,7 @@ Open Source Machine Predictive Maintenance Dataset (10k rows) : https://archive.
 <p align="center">
   <img src="./img/randomforest.jpg" alt="Logo" width="400"/>
 </p>
+
 - SVM for Failure Type Multiclass Clasification
 <p align="center">
   <img src="./img/svm.jpg" alt="Logo" width="400"/>
